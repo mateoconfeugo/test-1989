@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head id="html-head">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="stop suffering starting living with hemp based food product">
+    <meta name="author" content="patientcomfortreferral.com">
+    <link rel="shortcut icon" href="/img/favicon.png">
+    <title>Dissolve Away</title>
+    <!-- Bootstrap core CSS -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+	<script src="../../assets/js/html5shiv.js"></script>
+	<script src="../../assets/js/respond.min.js"></script>
+	<![endif]-->
+    <!-- Custom styles for this template -->
+    <link href='http://fonts.googleapis.com/css?family=Nosifer|Syncopate|Combo|Irish+Grover|Simonetta|Monoton|Bowlby+One|Londrina+Shadow|Aclonica|Italiana|Roboto|Hammersmith+One' rel='stylesheet' type='text/css'>
+    <link href="/css/bootstrap.css" rel="stylesheet"> 
+    <link href="/css/carousel.css" rel="stylesheet">  
+  </head>
+  <body>
+    <header class="container top">
+      <div class="row">
+	<aside class="col-md-8">
+	  <div> 
+	    <div class="alert alert-error" style="display:none">
+	      <strong>Ooops!</strong> Try again
+	    </div>
+	    <div class="alert alert-success" style="display:none">
+	      <strong>Success!</strong> You passed the validation.
+	    </div>
+	  </div> 
+	  <form  role="form" id="top-form" class="form-inline">
+	    <fieldset>
+	      <legend>For A Free In Home Consultation</legend>
+	      <label>Name</label><input id="lead_full_name" type="text" class="required"/>
+	      <label>Email</label><input id="lead_email" type="text" class="required email"/>
+	      <label>Phone</label><input id="lead_phone" type="text" class="required phoneUS"/>
+	      <input type="submit" id="lead-form-submit"  value="Go" class="lead-btn"/>
+	    </fieldset>
+	  </form>
+	</aside>
+	<section id="doctor-referral" class="col-md-4">
+	  <div class="row"> <h2>Free Doctor Referral</h2></div>
+	  <div class="row"><h3 id="phone_number">&nbsp Call: (555)555-5555</h3></div>
+	</section>
+      </div>
+    </header>
+    <div class="row">
+      <nav class="navbar-wrapper" id="navbar">
+	<div class="container">
+	  <div class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+              <div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		</button>
+		<a id="navbar-brand" href="#">Dissolve Away</a>
+              </div>
+              <div class="navbar-collapse collapse">
+		<ul class="nav navbar-nav">
+		  <li class="active"><a href="#">Pain</a></li>
+		  <li><a href="#about">Insomnia</a></li>
+		  <li><a href="#contact">Nausea</a></li>
+		</ul>
+              </div>
+            </div>
+	  </div>
+	</div>
+      </nav>
+    </div>
+    <div class="carousel slide" id="myCarousel">
+      <ol class="carousel-indicators">
+	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	<li data-target="#myCarousel" data-slide-to="1"></li>
+	<li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+	<div class="item active">
+	  <div class="container">
+            <div class="carousel-caption">
+	      <h1>Revolutionary New Hemp Extract Concentrate Food Supplement</h1>
+	      <p>For pain relief, nausea and sleeplessness. New hemp based oral supplement available in strip and drip form.</p>
+	        <p class="btn btn-large btn-primary">STOP SUFFERING - START LIVING</p> 
+            </div>
+	  </div>
+	</div>
+	<div class="item">
+	  <div class="container">
+            <div class="carousel-caption">
+	      <h1>Deep Reparative Sleep</h1>
+	      <p>Enabling reparative sleep is critical to healing and health.  Dissolve-Away Insomnia and Sleeplessness</p>
+	      <p class="btn btn-large btn-primary">SLEEP</p>
+            </div>
+	  </div>
+	</div>
+	<div class="item">
+	  <div class="container">
+            <div class="carousel-caption">
+	      <h1>Dissolve Away Nausea</h1>
+	      <p>Eating healthy is key to recovery and wellness. Enables natural appetite</p>
+	      <p class="btn btn-large btn-primary">EAT</p>
+            </div>
+	  </div>
+	</div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+    <div class="container marketing" id="market-message">
+      <div class="row">
+	<div class="col-lg-4">
+	  <h2>Strips</h2>
+	  <p>Easy to take refeshing mint strip</p>
+	  <img class="img-circle" src="/img/strips.png" alt="oral strip">
+	</div>
+	<div class="col-lg-4">
+	  <h2>Drops</h2>
+	  <p>Meter out the relief</p>
+	  <img class="img-circle" src="/img/drops.png"  alt="dropper bottle">
+	</div>
+	<div class="col-lg-4">
+	  <h2>Chocolate Lozenge</h2>
+	  <p>Tasty pleasant choclate lozenge slowly melts in moulth, bring relief</p>
+	  <img class="img-circle" src="/img/chocolate-lozenge-150x150.jpg" alt="Chocolate Lozenge">
+	</div>
+      </div>
+    </div>
+    <footer class="bottom">
+      <p>&copy; 2013 Patient Comfort Referral &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/main-debug.js"></script>
+  </body>
+</html>
+

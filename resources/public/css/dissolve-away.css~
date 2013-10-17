@@ -1,0 +1,121 @@
+
+
+#intro {
+    font-family: 'Comfortaa', sans-serif;
+    margin: 0px 0px 0px 25px; 
+    padding: 5px 0px 0px 25px;  
+}
+
+header {
+    font-size: 400%;
+    text-align: center;
+    color: ivory;
+    font-family: 'Syncopate', sans-serif;
+
+/*
+    font-family: 'Londrina Shadow', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Hammersmith One', sans-serif;
+**    font-family: 'Italiana', serif;
+** 
+    font-family: 'Irish Grover', cursive;
+* font-family: 'Monoton', cursive;
+    font-family: 'Bowlby One', cursive;
+    font-family: 'Simonetta', cursive;
+** font-family: 'Aclonica', sans-serif;
+    font-family: 'Comfortaa' Helvetica, Arial, san-serif;
+
+
+*/
+
+}
+
+body {
+    font-size: small;
+
+
+    /*     background-color: #ffffff; */
+    
+    /*    color: ; */
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-color: green;
+/*    background-color: rgb(221, 221, 189);  */
+}
+
+
+.hero-unit {
+/*    background-color: hsla(0, 0%, 93%, 0.85); */
+font-family: 'Hammersmith One', sans-serif;
+
+    background-color: ivory;
+    max-width: 100%;
+    float: left;
+    display: block;
+    -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,.12);
+    -moz-box-shadow: 1px 1px 3px rgba(0,0,0,.12);
+    box-shadow: 1px 1px 3px rgba(0,0,0,.12);
+    border: 1px solid #D9E0E6;
+}
+
+.banner h2 h3 {
+    text-align: center
+}
+
+
+.hero-unit p {
+    float: left;
+    font-size: 120%;
+    font-weight: bold;
+    text-rendering: optimizelegibility;
+}
+
+.banner p {
+    font-size: 120%;
+}
+
+
+.hero-unit img {
+    opacity: .63;
+    float: right;
+    max-width: 30%;
+    margin: 0;
+    padding: 4px;
+    border: 1px solid #D9E0E6;
+    border-bottom-color: #C8CDD2;
+    border-right-color:  #C8CDD2;
+    background: #FFF;
+    -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,.12);
+    -moz-box-shadow: 1px 1px 3px rgba(0,0,0,.12);
+    box-shadow: 1px 1px 3px rgba(0,0,0,.12);
+}
+
+.hero-unit h3 {
+    float: left
+}
+
+.hero-unit ul {
+    float: left;
+    /*    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    padding: 0px 0px 0px 15px;
+    display: block;
+    line-height: 20px;
+    font-size: 20px;
+    list-style-type: disc;
+}
+
+.box  {
+    width: 225px;
+    border: 1px solid #C6A765; 
+    border: 1px solid  #EFCA55; 
+    color: green; 
+    background-color:  hsla(40, 47%, 96%, 0.8); 
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.box h5 {
+    font-size: 150%;
+}

@@ -1,0 +1,326 @@
+/* GLOBAL STYLES -------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: green;
+  background-color: #E4F6DF;
+}
+
+.btn-primary {
+    font-size: 150%;
+    color: white;
+    background-color: green;
+    border-color: white;
+}
+
+/* CUSTOMIZE THE ON PAGE FORM 
+-------------------------------------------------- */
+
+
+#doctor-referral {
+    text-align: center;
+}
+
+#doctor-referral h2 h3 h4 {
+    font-size: 80%;
+}
+
+
+#terms {
+    color: white;
+    text-align: center;
+}
+
+.form-inline label {
+    padding-right: 10px
+}
+
+
+.form-inline legend {
+    color: green;
+    border: 0px;
+    text-align: center;
+}
+
+.top { 
+    padding-top: 10px;
+}
+
+.box  {
+    width: 225px;
+/*    border: 1px solid #C6A765;  */
+/*    border: 1px solid  #EFCA55; */
+/*    color: green; */
+/*    background-color:  hsla(40, 47%, 96%, 0.8); */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.box h5 {
+    font-size: 150%;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+.navbar-inverse {
+    font-size: 150%;
+    font-family: 'Hammersmith One', sans-serif;
+    background-color: black;
+    border-color: black;
+    color: red;
+}
+
+.navbar-inverse .navbar-nav {
+    float: right;
+}
+
+.navbar-inverse .navbar-nav  li  a {
+    color: white;
+}
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: relative;
+  z-index: 15;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 60px;
+  /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+  margin-top: -90px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+/* MARKETING CONTENT -------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#marketing-row {
+    height: 200px;
+}
+
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+
+p.btn-primary {
+    background-color: green;
+    border-color: white;
+}
+
+
+#varities {
+    text-align: center;
+}
+
+header {
+    padding-top: 10px;
+}
+
+header div {
+  background-color: #C8DFC0;
+  background-color: ivory;
+  background-color: rgb(144, 241, 38);
+  background-color: rgb(223, 255, 187);
+  background-color: rgb(61, 252, 13);
+  border: 3px solid  green;
+  color: hsl(208, 36%, 49%);
+  color: green;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+header h1  {
+    font-family: 'Faster One', cursive;
+    font-size: 600%;
+    color: hsl(208, 36%, 49%);
+    color: green;
+    text-align: center;
+}
+
+.navbar {
+    background-color: rgb(52, 172, 57);
+}
+
+.navbar-header h1 {
+    color: yellow;
+}
+
+.keypoints ul li {
+    display: inline;
+}
+
+.keypoints ul, h2 {
+    list-style: none;
+    text-align: center;
+
+}
+
+.row aside  {
+    text-align: center;
+    width: auto;
+    background-color: white;
+    background-color: ivory;
+    color: green;
+    border: 3px solid  #EFCA55;
+    border: 3px solid  green;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.top aside  {
+    background-color: ivory;
+    color: green;
+    border: 3px solid  green;
+    padding: 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    float: right;
+}
+
+.bottom aside  {
+    width: auto;
+    background-color: ivory;
+    color: green;
+    border: 3px solid  green;
+    padding: 10px; 
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    float: center;
+}
+
+#top-form legend {
+    color: red;
+}
+
+#top-form input {
+    display: inline;
+}
+/*
+form fieldset ul li  {
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+}
+
+form fieldset ul li label {
+    padding-right: 2px;
+
+}
+
+form fieldset ul li  {
+    align: right;
+}
+*/
+#modal-form fieldset {
+  padding: 1em;
+ }
+
+#modal-form label {
+  float:left;
+  width:25%;
+  margin-right:0.5em;
+  padding-top:0.2em;
+  text-align:right;
+  font-weight:bold;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+/*
+@media (min-width: 768px) {
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+*/
+
+

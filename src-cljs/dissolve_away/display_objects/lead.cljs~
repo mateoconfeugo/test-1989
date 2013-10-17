@@ -1,0 +1,40 @@
+(ns dissolve-away.display-objects.lead)
+(comment
+  (:require-macros [cljs.core.match.macros :refer [match]]
+                   [cljs.core.async.macros  :refer [go]])
+  (:require [flourish-common.utils.helpers :refer [event-chan by-id click-chan]]
+            [lead-generation.client :refer [send-lead]]
+            [cljs.core.async :refer [<! >! chan put! alts!]]
+            [jayq.core  :as jq :refer [$ text val on prevent remove-class add-class remove]]))
+
+
+(defn handle-error
+  [error])
+
+(defn valid-submission? [lead] true)
+  
+(defn handle-lead-submit
+  [lead-channel error-channel]
+  (let [e (<! lead-channel)
+        name (jq/val (jq/$ :#lead_full_name))
+        email (jq/val (jq/$ :#lead_email))
+        phone (jq/val (jq/$ :#lead_phone))
+        loc (.-location js/window)                
+        results (send-lead name email phone)]
+    (if (valid-submission? results)
+      results
+      (put! error-channel results))))
+
+
+(defn add-dispatch-channel-rule
+  [rule handler]
+  (let [dispatcher (fn  [{:keys [event channel error-channel] :args}]
+                     (match [event]
+                            [rule] (handler args)))]
+    (dispatcher)))
+
+(defn init [error-channel]
+  (let  [lead-channel (click-chan "#lead-form-submit" :new-lead)
+         media-query-channel (init-media-query)])
+  [lead-channel media-query-channel error-channel])
+)

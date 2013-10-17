@@ -1,0 +1,30 @@
+(ns disolve-away.display-object.lead)
+(comment
+  (defn handle-error
+  [error])
+
+(defn handle-lead-submit
+  [lead-channel]
+  (let [e (<! lead-channel)
+        name (jq/val (jq/$ :#lead_full_name))
+        email (jq/val (jq/$ :#lead_email))
+        phone (jq/val (jq/$ :#lead_phone))
+        loc (.-location js/window)                
+        results (send-lead name email phone)]
+    (if (valid-submission? results)
+      results
+      (put! error-channel results))))
+
+(defn add-dispatch-channel-rule
+  [rule handler]
+  (let [dispatcher (fn  [{:keys [event channel error-channel] :args}]
+                     (match [event]
+                            [rule] (handler args)))]
+    (dispatcher)))
+
+(defn init
+  [{:keys [error-channel] :as args}]
+  (let  [lead-channel (click-chan "#lead-form-submit" :new-lead)
+        media-query-channel (init-media-query)])
+  [lead-channel media-query-channel error-channel])
+)
